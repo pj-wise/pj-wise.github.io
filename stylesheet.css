@@ -305,6 +305,10 @@ footer {
     text-decoration: none;
 }
 
+.footnum {
+    color: #68c8f2;
+}
+
 .footNum:link {
     padding-left: 1rem;
     font-weight: 200;
@@ -313,6 +317,7 @@ footer {
 }
 
 .footNum:hover,
+.footnum:active, 
 .footNum:visited {
     color: #fff;
     text-decoration: none;
