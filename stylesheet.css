@@ -305,7 +305,7 @@ footer {
     text-decoration: none;
 }
 
-.footNum {
+.footNum:link {
     padding-left: 1rem;
     font-weight: 200;
     font-size: 1.2rem;
