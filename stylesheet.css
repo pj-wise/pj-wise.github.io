@@ -88,6 +88,8 @@ a:active {
 #about p {
     font-size: 22px;
     padding: 1em 0 2em 0;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
     font-weight: 300;
 }
