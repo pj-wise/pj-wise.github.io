@@ -119,7 +119,7 @@ figure.logoItem img {
 }
 
 #projects {
-    background: url(images/projectsBack.jpeg);
+    background: url(images/projectBack.jpg);
     background-attachment: fixed;
     background-size: cover;
     border-top: 9px solid #ffbc49;
