@@ -1,0 +1,41 @@
+<!-- Working -->
+
+<div id="contactSection" class="row">
+        <div id="myInfo" class="col">
+            <div id=myEmail>
+                <h4>Email:</h4><a href="mailto:pjay.wise@gmail.com" id="link">pjay.wise@gmail.com</a>
+            </div>
+            <h4>Phone:</h4><a href="tel:18478099721" id="link">(847)809-9721</a>
+        </div>
+        <form class="col" id="contact-form" action="contactForm.php" method="POST">
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required />
+            <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+            <textarea name="message" class="feedback-input" placeholder="Message"></textarea>
+            <input type="submit" value="SUBMIT" />
+        </form>
+    </div>
+</section>
+
+
+
+<!-- USE THIS ONE  -->
+
+<form action="contactForm.php" method="POST" role="form" class="contactForm">
+        <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
+                  data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
+                  placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+        
+              <div class="text-center"><button type="submit" value="SUBMIT" class="btn btn-primary btn-lg">Send Message</button></div>
+            </form>
